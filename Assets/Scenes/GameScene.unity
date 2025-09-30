@@ -237,7 +237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 790.9, y: 420}
+  m_AnchoredPosition: {x: 790.9, y: 269}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204663503
@@ -442,21 +442,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4704adf934ddd4db0a2e8a48cec0266d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 0}
-  musicVolume: 1
+  music: {fileID: 8300000, guid: e400f074185a90a409bfb6f61e83b73d, type: 3}
+  musicVolume: 0.309
   ambience: {fileID: 0}
   ambienceVolume: 1
-  playerMove: {fileID: 0}
-  playerMoveVolume: 1
-  fireProjectile: {fileID: 0}
-  fireProjectileVolume: 1
-  projectileImpact: {fileID: 0}
-  projectileImpactVolume: 1
-  crateDestroyed: {fileID: 0}
-  crateDestroyedVolume: 1
-  enterTrap: {fileID: 0}
-  enterTrapVolume: 1
-  goalReached: {fileID: 0}
+  playerMove: {fileID: 8300000, guid: bcb726bb3a613fb4e8e2ebb85e4265a3, type: 3}
+  playerMoveVolume: 0.526
+  fireProjectile: {fileID: 8300000, guid: e9fc6936ede810b4fbd9d2346de28f7b, type: 3}
+  fireProjectileVolume: 0.215
+  projectileImpact: {fileID: 8300000, guid: cd6e4bd1cba13054a91c7ce4de6d9148, type: 3}
+  projectileImpactVolume: 0.091
+  crateDestroyed: {fileID: 8300000, guid: 671945d672f4eae4e8ee245c8ef15139, type: 3}
+  crateDestroyedVolume: 0.774
+  enterTrap: {fileID: 8300000, guid: 04051f8a58e9ca44fa97b9da0000918d, type: 3}
+  enterTrapVolume: 0.768
+  goalReached: {fileID: 8300000, guid: 33982cfa8f9a6c0418d3692ddc305320, type: 3}
   goalReachedVolume: 1
 --- !u!114 &325063152
 MonoBehaviour:
@@ -486,7 +486,7 @@ MonoBehaviour:
     color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
   crateVisuals:
     animController: {fileID: 0}
-    sprite: {fileID: -1767485878374519647, guid: c96802b4b9c98d6438e1a96d51c0522c, type: 3}
+    sprite: {fileID: -2011081452543692480, guid: c6078aa4140347749b0931f797b11ba6, type: 3}
     color: {r: 1, g: 0.540573, b: 0.23137254, a: 1}
   trapVisuals:
     animController: {fileID: 0}
@@ -708,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 790.9, y: 316}
+  m_AnchoredPosition: {x: 790.9, y: 164.99998}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573890472
@@ -986,7 +986,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.3903524, g: 0.9622642, b: 0.88322693, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.735849, g: 0.39846918, b: 0.39846918, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1123,14 +1123,14 @@ RectTransform:
   m_GameObject: {fileID: 1086108516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.639, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1254882678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 788.29, y: 242.96002}
+  m_AnchoredPosition: {x: 788.29, y: 69.999985}
   m_SizeDelta: {x: -1641.39, y: -604.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086108518
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0.38431373}
+  m_Color: {r: 0.8415094, g: 0.46223155, b: 0.4366322, a: 0.8352941}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1638,7 +1638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 789.7, y: 70.600006}
+  m_AnchoredPosition: {x: 789.7, y: -80.399994}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1422009106
@@ -1774,7 +1774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 789.7, y: 245}
+  m_AnchoredPosition: {x: 789.7, y: 94}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1502172365
@@ -1797,7 +1797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Crates Remaining
+  m_text: Clowns Remaining
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2019,7 +2019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 790.9, y: 141.59999}
+  m_AnchoredPosition: {x: 790.9, y: -9.400011}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1950380834
