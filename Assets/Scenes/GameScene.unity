@@ -485,7 +485,7 @@ MonoBehaviour:
     sprite: {fileID: 4122146012913232036, guid: 5a74d822780933344ae1c957e0af9de8, type: 3}
     color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
   crateVisuals:
-    animController: {fileID: 0}
+    animController: {fileID: 9100000, guid: 5f814e6e9bd53bf4292c4eb0d1f15340, type: 2}
     sprite: {fileID: -2011081452543692480, guid: c6078aa4140347749b0931f797b11ba6, type: 3}
     color: {r: 1, g: 0.540573, b: 0.23137254, a: 1}
   trapVisuals:
@@ -962,7 +962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 781.7, y: -447}
+  m_AnchoredPosition: {x: 781.7, y: -234}
   m_SizeDelta: {x: 265.43, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968224130
@@ -986,7 +986,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.3903524, g: 0.9622642, b: 0.88322693, a: 1}
+    m_NormalColor: {r: 0.5943396, g: 0.8719533, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1130,7 +1130,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 788.29, y: 69.999985}
+  m_AnchoredPosition: {x: 788.29, y: 69.99997}
   m_SizeDelta: {x: -1641.39, y: -604.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086108518
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8415094, g: 0.46223155, b: 0.4366322, a: 0.8352941}
+  m_Color: {r: 0.8178657, g: 1, b: 0, a: 0.8352941}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
